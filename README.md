@@ -26,9 +26,9 @@ To get a local copy up and running follow these simple example steps.
 
 
 - clone the repository by running
-``` git clone https://github.com/Tobinchilongo/Math-Magic.git ```
+``` git clone https://github.com/Tobinchilongo/Math-Magicians.git ```
 - navigate to the folder
-``` cd Math-Magic ```
+``` cd Math-Magicians ```
 - Install packages
 ``` npm install ```
 - Run the app
