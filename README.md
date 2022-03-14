@@ -18,7 +18,7 @@
 
 **Setup**
 
-git clone https://github.com/Mwapsam/MathMagicians.git
+git clone git@github.com:Tobinchilongo/Math-Magicians.git
 
 Execute the following commands on your terminal
 ```
