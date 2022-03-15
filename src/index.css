@@ -10,6 +10,8 @@
   background-color: #858694;
   line-height: 100px;
   font-size: 3em;
+  overflow-x: auto;
+  scrollbar-width: none;
   padding: 0 10px;
   right: 0;
   transform-origin: right;
