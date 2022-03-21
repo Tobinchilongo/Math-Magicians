@@ -1,6 +1,21 @@
 import React from 'react';
-import Calculator from './Components/Calculator';
 import './App.css';
+import './index.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
+
+// Components
+
+import Nav from './Components/Navigation';
+
+// Pages
+
+import Home from './Pages/Home';
+import CalculatorPage from './Pages/CalculatorPage';
+import Quote from './Pages/Quote';
 
 class App extends React.Component {
   constructor(props) {
@@ -11,7 +26,20 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Calculator />
+        <Router>
+          <Nav />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/Calculator">
+              <CalculatorPage />
+            </Route>
+            <Route path="/Quote">
+              <Quote />
+            </Route>
+          </Switch>
+        </Router>
       </div>
     );
   }
