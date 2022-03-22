@@ -2,7 +2,7 @@ import React from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Home from '../Pages/Home';
+import Home from '../../Pages/Home';
 
 test('testing home', () => {
   const { container } = render(
