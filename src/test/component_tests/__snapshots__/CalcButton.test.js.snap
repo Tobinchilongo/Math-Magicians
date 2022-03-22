@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Calculator Button Click a Button on Calculator 1`] = `
+<button
+  className="calc-buttons"
+  onClick={[Function]}
+  type="button"
+>
+  9
+</button>
+`;
