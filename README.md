@@ -16,8 +16,8 @@
 
 ## Live Demo 
 
-[Live Demo Link](https://math-magician-calculator.netlify.app)
-
+[Netlify](https://math-magician-calculator.netlify.app)
+[Heroku](https://mathmagician1.herokuapp.com/)
 
 ## Getting Started
 
@@ -33,6 +33,7 @@ To get a local copy up and running follow these simple example steps.
 ``` npm install ```
 - Run the app
 ``` npm start ```
+
 
 ## Prerequisites
 - Linters
