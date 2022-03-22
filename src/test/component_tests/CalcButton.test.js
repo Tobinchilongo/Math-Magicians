@@ -4,7 +4,7 @@ import CalcButton from '../../Components/CalculatorBtn';
 import calculate from '../../Logic.js/Calculate';
 
 describe('Testing Calculator Button', () => {
-  test('Click a Button on Calculator', () => {
+  test('Check if a single Calculator Button renders Correctly', () => {
     const calcObj = {
       total: null,
       next: null,

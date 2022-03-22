@@ -1,7 +1,7 @@
 // import { render, screen } from '@testing-library/react';
 import operate from '../Logic.js/Operate';
 
-describe('operation test', () => {
+describe('Testing Operate.js', () => {
   it('should sum two numbers expect "11"', () => {
     const sum = operate(6, 5, '+');
     expect(sum).toMatch('11');
